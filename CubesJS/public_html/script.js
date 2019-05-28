@@ -65,3 +65,11 @@
 // (function () {
 // 	console.log("Something");
 // })();
+
+var someData = [{
+  name: "Peter",
+  age: 32,
+  married: true
+}]
+console.log(someData[0].name);
+
