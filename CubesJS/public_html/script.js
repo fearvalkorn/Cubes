@@ -166,3 +166,43 @@
 // BONUS:
 
 // Try to set name with value it had before.
+
+// function Person(name,age) {
+// 	this.name = name;
+// 	this.age = age;
+// }
+
+// var peter = new Person("Peter", 32);
+
+// var mike = new Person("Mike", 34);
+
+
+// console.log(peter);
+
+
+
+
+
+
+
+
+// console.log("We're in global context");	
+
+// function doSomething() {
+// 	console.log("We're in context of doSomething function");
+
+// 	doSomethingElse();
+
+// 	console.log("We're in context of doSomething function");
+// }
+
+// function doSomethingElse() {
+// 	console.log("We're in context of doSomethingElse function");
+// }
+
+// doSomething();
+
+
+function logName() {
+	console.log("Peter");
+}
